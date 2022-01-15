@@ -1,0 +1,17 @@
+<!-- JMP Add-In Builder created --><jm:menu_and_toolbar_customizations xmlns:jm="http://www.jmp.com/ns/menu" version="3">
+  <jm:insert_in_main_menu>
+    <jm:insert_in_menu>
+      <jm:name>Add-Ins</jm:name>
+      <jm:insert_after>
+        <jm:name></jm:name>
+        <jm:command>
+          <jm:name>ANALYZE COLUMNS</jm:name>
+          <jm:caption>Analyze Columns</jm:caption>
+          <jm:action type="path">$ADDIN_HOME(jthi.jmp.tools.analyze.columns)\analyze_columns.jsl</jm:action>
+          <jm:tip>Run JMP-Tools Analyze Columns</jm:tip>
+          <jm:icon type="builtin">Tabulate</jm:icon>
+        </jm:command>
+      </jm:insert_after>
+    </jm:insert_in_menu>
+  </jm:insert_in_main_menu>
+</jm:menu_and_toolbar_customizations>

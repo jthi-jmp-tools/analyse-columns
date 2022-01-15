@@ -1,0 +1,5 @@
+id=jthi.jmp.tools.analyze.columns
+name=JMP-Tools Analyze Columns
+supportJmpSE=0
+addinVersion=1
+minJmpVersion=16
